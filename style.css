@@ -1,0 +1,19 @@
+/* ... existing styles ... */
+
+#progressBarContainer {
+    margin-top: 20px;
+}
+
+#progressBar {
+    height: 20px;
+    background-color: #ccc;
+    margin-bottom: 10px;
+}
+
+#progressBar div {
+    height: 100%;
+    width: 0;
+    background-color: #4caf50;
+}
+
+/* ... existing styles ... */

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Coin Flipper</title>
+</head>
+<body>
+    <div class="container">
+        <div id="coin" class="heads"></div>
+        <button id="flipButton" onclick="flipCoin()">Flip Coin</button>
+        <label for="autoFlip">Auto Flip:</label>
+        <input type="checkbox" id="autoFlip">
+        <label for="simultaneousFlips">Simultaneous Flips:</label>
+        <input type="number" id="simultaneousFlips" min="1" max="1000" value="1">
+        <button id="autoFlipButton" onclick="autoFlip()">Start Auto Flip</button>
+        <p id="result"></p>
+        <div id="progressBarContainer">
+            <div id="progressBar"></div>
+            <p>Flips: <span id="currentFlips">0</span></p>
+            <p>Heads: <span id="totalHeads">0</span></p>
+            <p>Tails: <span id="totalTails">0</span></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
